@@ -26,8 +26,6 @@ public class PlayerMovement : MonoBehaviour
         //Assign speed of the player
         //When left key is pressed the value goes to -1 and right key to 1
 
-     
-
         //Flip player when moving left and right
         if(horizontalInput > 0.01f)
         {
@@ -85,14 +83,14 @@ public class PlayerMovement : MonoBehaviour
     {
         if(isGrounded())
         {
-            body.velocity = new Vector2(body.velocity.x, speed);
+            body.velocity = new Vector2(body.velocity.x, jumpPower);
             animator.SetTrigger("Jump");
         }
         else if(onWall() && !isGrounded())
         {
             if(horizontalInput == 0)
             {
-                body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 10, 0);
+                body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 4, 0);
                 transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), transform.localScale.z);
             }
             else
