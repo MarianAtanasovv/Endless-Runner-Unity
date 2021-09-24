@@ -54,23 +54,50 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
+    <Compile Include="Assets\Scripts\Rooms\Room.cs" />
     <Compile Include="Assets\Scripts\Player\Projectile.cs" />
+    <Compile Include="Assets\Free Pixel Art Hills\Demo\MoveBackground.cs" />
+    <Compile Include="Assets\2D SpritePack\Demo\Scripts\Portal.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyCreature.cs" />
+    <Compile Include="Assets\Main menu with parallax FREE\Scripts\MenuController.cs" />
+    <Compile Include="Assets\Main menu with parallax FREE\Scripts\Settings.cs" />
+    <Compile Include="Assets\2D SpritePack\Demo\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Core\CameraController.cs" />
+    <Compile Include="Assets\2D SpritePack\Demo\Scripts\Saw.cs" />
+    <Compile Include="Assets\2D SpritePack\Demo\Scripts\RestartLevel.cs" />
     <Compile Include="Assets\Scripts\Enemy\FireTrap.cs" />
+    <Compile Include="Assets\Scripts\TextMesh\SortingLayer.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Health\HealthCollectible.cs" />
+    <Compile Include="Assets\Scripts\SC_MainMenu.cs" />
     <Compile Include="Assets\Scripts\Enemy\ArrowTrap.cs" />
+    <Compile Include="Assets\Main menu with parallax FREE\Scripts\SettingsController.cs" />
+    <Compile Include="Assets\Scripts\Enemy\MovingPlatform.cs" />
     <Compile Include="Assets\Scripts\Health\Health.cs" />
+    <Compile Include="Assets\Main menu with parallax FREE\Scripts\ActivateParallax.cs" />
     <Compile Include="Assets\Scripts\Enemy\SpikeHead.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_Sideways.cs" />
     <Compile Include="Assets\Scripts\Rooms\Door.cs" />
+    <Compile Include="Assets\2D SpritePack\Demo\Scripts\CameraControlla.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyDamage.cs" />
     <Compile Include="Assets\Scripts\Health\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\Enemy\DisappearTrap.cs" />
+    <Compile Include="Assets\Main menu with parallax FREE\Scripts\Parallax.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyProjectile.cs" />
-    <Compile Include="Assets\Scripts\Rooms\Room.cs" />
+    <Compile Include="Assets\Main menu with parallax FREE\Scripts\SceneController.cs" />
+    <Compile Include="Assets\Scripts\Credits\Credits.cs" />
+    <Compile Include="Assets\Main menu with parallax FREE\Scripts\Arrow.cs" />
+    <Compile Include="Assets\Scripts\SC_BackgroundScaler.cs" />
+    <Compile Include="Assets\Scripts\SC_MainMenuForCredits.cs" />
+    <Compile Include="Assets\Scripts\Music\MusicScript.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Hero and Opponents\license.txt" />
+    <None Include="Assets\Free Pixel Art Hills\contact.txt" />
     <None Include="Assets\Sprites\Character\Read Me.txt" />
+    <None Include="Assets\Free Pixel Art Forest\Contact.txt" />
+    <None Include="Assets\Free Pixel Art Hills\Lisense.txt" />
+    <None Include="Assets\Free Pixel Art Hills\readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
